@@ -1,0 +1,107 @@
+body{
+	margin:0;
+	overflow: hidden;
+	}
+
+	#upper-toolbar	{
+			position: relative;
+			width: 100%;
+			height: 50px;
+			background-color: #0d342e;
+			color: white;
+			padding: 0;
+			margin: 0;	
+		}
+
+	#chart {
+			position: relative;
+			width: 100%;
+					height: calc(100% - 100px);
+					height: -webkit-calc(100% - 100px);
+					height: -o-calc(100% - 100px);
+					height: -moz-calc(100% - 100px);
+			background-color: #010504;
+			color: white;
+			padding: 0;			
+		}
+
+	#lower-toolbar	{
+			position: relative;
+			width: 100%;
+			height: 50px;
+			background-color: #0d342e;
+			color: white;
+			padding: 5px;
+			margin: 0;	
+		}
+
+	.vertical-center{
+			margin: 0;
+  			position: relative;
+ 			top: 50%;
+  			-ms-transform: translateY(-50%);
+  			transform: translateY(-50%);
+		}
+		/***********************/
+		#time{
+			position: absolute;
+			top:0;
+			left:6%;
+			margin-left: 1%;
+			width: 275px;
+			height: 100%;
+
+		}
+
+		.time-longinput{
+			width:40px;
+		}
+		.time-shortinput{
+			width:25px;
+		}
+
+		#candlewidth{z-index: 10000;
+			position: absolute;
+			top: 25px;
+			right: -20px;
+			
+		}
+
+		/*#cScaleOutter{
+			position: absolute;
+			top: 50%; 
+			left: calc(6% + 290px); 
+			width: 500px;			
+		}*/
+
+
+	/*******************************/
+	#symbols{
+			margin-left: 1%;
+			width: 5%;
+			height: 100%;
+		}
+	.symbols-select{
+			width:100%;
+		}
+
+		.loadbuttondiv{
+			position: absolute; 
+			top:16px; 
+			right: 45px;
+			width: 30px;
+			height: 30px;
+		}
+		.loadbutton{
+			border: groove 2px grey; 
+			padding:10px 3px 10px 3px;
+			text-decoration:none;
+			color:#838c88;
+			background-color: #454b48;
+			vertical-align: center;
+			
+		}
+			.active{
+				color:white; 
+				background-color: #737c78;
+			}
